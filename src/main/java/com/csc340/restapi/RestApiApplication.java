@@ -14,8 +14,8 @@ public class RestApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(RestApiApplication.class, args);
-     getCatFact();
-      getWords();
+        getCatFact();
+        getWords();
         System.exit(0);
     }
 
