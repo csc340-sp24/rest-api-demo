@@ -14,13 +14,13 @@ public class RestApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(RestApiApplication.class, args);
-        getCatFact();
-        getWords();
+     getCatFact();
+      getWords();
         System.exit(0);
     }
 
     /**
-     * Get a random cat fact and make it available at this endpoint.
+     * Get a random cat fact and print to console
      */
     public static void getCatFact() {
         try {
@@ -47,6 +47,9 @@ public class RestApiApplication {
         }
     }
 
+    /**
+    * Use the Data Muse Word Finder API to get synonyms.
+    */
     public static void getWords() {
         String word = "happy";
 
